@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuiserie Jean-Luc Poirier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#projets">Nos Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <h1>Bienvenue à la Menuiserie Jean-Luc Poirier</h1>
+        <p>Votre artisan menuisier dans le département d'Ille-et-Vilaine</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Fabrication de meubles sur mesure</li>
+            <li>Pose de fenêtres et portes en bois</li>
+            <li>Rénovation d'escaliers</li>
+ 
+            <li>Travaux de menuiserie en neuf et en rénovation</li>
+        </ul>
+    </section>
+
+    <section id="projets">
+        <h2>Nos Projets</h2>
+        <div class="projets-gallery">
+            <div class="projet-item">
+                <img src="projet1.jpg" alt="Projet 1">
+                <p>Aménagement d'un salon sur mesure.</p>
+            </div>
+            <div class="projet-item">
+                <img src="projet2.jpg" alt="Projet 2">
+                <p>Fabrication d'un escalier en bois.</p>
+            </div>
+            <div class="projet-item">
+                <img src="projet3.jpg" alt="Projet 3">
+                <p>Pose de fenêtres en bois dans une maison ancienne.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-Nous</h2>
+        <p>Vous avez un projet ? Contactez-nous pour un devis gratuit !</p>
+        <form action="mailto:contact@menuiserie-jeanlucpoirier.com" method="post" enctype="text/plain">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Menuiserie Jean-Luc Poirier - Ille-et-Vilaine</p>
+    </footer>
+</body>
+
+</html>

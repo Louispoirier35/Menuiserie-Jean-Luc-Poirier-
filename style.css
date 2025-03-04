@@ -1,0 +1,140 @@
+
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #1a5e8f;
+}
+
+a {
+    text-decoration: none;
+    color: #1a5e8f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Section Accueil */
+#accueil {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.44it4FSejnr64s4uRiBXXwHaJO&pid=Api');
+    background-size: cover; /* L'image couvre toute la section */
+    background-position: center; /* Centrer l'image */
+    color: white;
+    padding: 300px 150px;
+    text-align: center;
+}
+
+#accueil h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#accueil p {
+    font-size: 1.5em;
+}
+
+/* Section Services */
+#services {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Section Projets */
+#projets {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projets-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projet-item {
+    width: 200px;
+    text-align: center;
+}
+
+.projet-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #1a5e8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #144c6c;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
